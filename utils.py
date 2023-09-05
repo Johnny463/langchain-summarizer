@@ -9,7 +9,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 def create_pdf(content):
 
     # Create a PDF document
-    pdf_file = "11.pdf"
+    pdf_file = "Summary.pdf"
     document = SimpleDocTemplate(pdf_file, pagesize=letter)
 
     # Register the Arial font and set it as the default font
