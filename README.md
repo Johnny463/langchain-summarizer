@@ -38,7 +38,7 @@ You can customize the summarization process by modifying the app.py file. Some p
 
 Adjusting the length of the summary-
 Chunk size-
-Per page readabliity
+Per page readabliity-Font style
 
 
 ## License
