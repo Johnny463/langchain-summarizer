@@ -41,6 +41,25 @@ Chunk size-
 Per page readabliity-Font style
 
 
+`count`: Number of pages to read at a time.
+
+`i`: Starting index of pages.
+
+`j`: Ending index of pages.
+
+`chunk_size`: Size of text chunks for summarization.
+
+`chunk_overlap`: Overlap between chunks (if needed).
+
+### Example:
+```bash
+count = 0
+i = 0
+j = 16
+chunk_size = 1000
+chunk_overlap = 0
+```
+
 ## License
 ```
 MIT License
