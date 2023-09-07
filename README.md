@@ -51,6 +51,22 @@ You can use:
 
 `Token Text Splitter`
 
+
+
+
+
+### Logic:
+This modified code will process 16 pages at a time for a total of 49 loops, which will cover all 797 pages(Of my book). Please make sure to adjust the chunk_size and any other parameters according to your specific needs.
+```bash
+count = 0 (while count<49)
+i = 0
+j = 16
+chunk_size = 1000
+chunk_overlap = 0
+```
+where
+
+
 `count`: Number of pages to read.
 
 `i`: Starting index of pages.
@@ -60,16 +76,6 @@ You can use:
 `chunk_size`: Size of text chunks for summarization.
 
 `chunk_overlap`: Overlap between chunks (if needed).
-
-### Example:
-This modified code will process 16 pages at a time for a total of 49 loops, which will cover all 797 pages(Of my book). Please make sure to adjust the chunk_size and any other parameters according to your specific needs.
-```bash
-count = 0 (while count<49)
-i = 0
-j = 16
-chunk_size = 1000
-chunk_overlap = 0
-```
 
 ## License
 ```
