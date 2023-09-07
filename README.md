@@ -41,7 +41,7 @@ Chunk size-
 Per page readabliity-Font style
 
 
-`count`: Number of pages to read at a time.
+`count`: Number of pages to read.
 
 `i`: Starting index of pages.
 
@@ -52,6 +52,7 @@ Per page readabliity-Font style
 `chunk_overlap`: Overlap between chunks (if needed).
 
 ### Example:
+This modified code will process 16 pages at a time for a total of 49 loops, which will cover all 797 pages(Of my book). Please make sure to adjust the chunk_size and any other parameters according to your specific needs.
 ```bash
 count = 0
 i = 0
