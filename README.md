@@ -39,7 +39,17 @@ You can customize the summarization process by modifying the app.py file. Some p
 Adjusting the length of the summary-
 Chunk size-
 Per page readabliity-Font style
+In this Code, I used simple `Textsplitter` to Reduce Hallucination.
 
+You can use:
+
+`NLTK Text Splitter `
+
+`Spacy Text Splitter`
+
+`Markdown Text Splitter`
+
+`Token Text Splitter`
 
 `count`: Number of pages to read.
 
